@@ -32,13 +32,13 @@ void encriptarFrase ()
 
     for(i=0 ; i<largo ; ++i)
     {
-        //convierte las minuscalas a mayuscula.
+       
         *(frase + i) = toupper(*(frase + i));
 
-        //descarta los digitos
+      
         if(isalpha(*(frase + i)))
         {
-            //verifica los casos especiales X-Y-Z
+            
             if(*(frase + i) > 87)
             {
                 *(frase+i) = *(frase+i) - 23;
