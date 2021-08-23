@@ -32,3 +32,4 @@ tmpCad[j] = '\0';
 printf("%s\n", tmpCad);
 return 0;
 }
+
